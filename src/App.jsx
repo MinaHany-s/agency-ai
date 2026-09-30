@@ -71,12 +71,12 @@ export default function App() {
 
       {/* Custom Cursor Ring */}
       <div ref={outlineRef} className="fixed top-0 left-0 h-10 w-10 rounded-full
-       border border-primary pointer-events-none z-[9999]"
+       border border-primary pointer-events-none z-[9999] max-sm:hidden"
         style={{ transition: 'transform 0.1s ease-out' }}></div>
 
       {/* Custom Cursor dott */}
       <div ref={dotRef} className="fixed top-0 left-0 h-3 w-3 rounded-full
-        bg-primary pointer-events-none z-[9999]"></div>
+        bg-primary pointer-events-none z-[9999]  max-sm:hidden"></div>
 
       <Toaster />
 

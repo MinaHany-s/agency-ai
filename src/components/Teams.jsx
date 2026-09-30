@@ -16,9 +16,9 @@ const Teams = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
                 {teamData.map((team, index) => (
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration:.4,delay:index*.4 }}
+                        initial={{ opacity: 0}}
+                        whileInView={{ opacity: 1}}
+                        transition={{ duration:.1,delay:index*.4 }}
                         viewport={{ once: true }}
 
                         key={index} className="flex max-sm:flex-col items-center gap-5 p-4 rounded-xl border border-gray-100

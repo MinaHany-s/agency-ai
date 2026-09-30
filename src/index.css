@@ -2,16 +2,19 @@
 
 @import "tailwindcss";
 
-
 @custom-variant dark (&:where(.dark, .dark *));
 
-*{
+* {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
-  cursor: none;
-
 }
 
 @theme {
-  --color-primary:#5044E5
+  --color-primary: #5044e5;
+}
+
+@media (min-width: 640px) {
+  * {
+    cursor: none;
+  }
 }

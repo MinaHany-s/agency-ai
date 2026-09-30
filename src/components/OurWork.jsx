@@ -36,8 +36,8 @@ const OurWork = () => {
                 {
                     workData.map((work, index) => (
                         <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0,}}
+                            whileInView={{ opacity: 1, }}
                             transition={{ duration: .5, delay: index * 0.2 }}
                             viewport={{ once: true }}
                             key={index} className="hover:scale-102 duration-500 transition-all cursor-pointer">
